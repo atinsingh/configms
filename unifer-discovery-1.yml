@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: unifer-discovery-1
+eureka:
+  client:
+    service-url :
+    defaultZone : http://localhost:8761
+    register-with-eureka: false
+    fetch-registry: false
