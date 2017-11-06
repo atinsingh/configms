@@ -3,8 +3,4 @@ cassandra:
   port: 9042
   keyspace-name: customer_domain
 eureka:
-  client:
-    service-url :
-      defaultZone : http://localhost:8761
-    register-with-eureka: false
-    fetch-registry: false
+  url: http://localhost:8761
