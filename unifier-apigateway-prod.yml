@@ -5,11 +5,11 @@ zuul:
     customer:
       path: /customer/**
       serviceId: CUSTOMER-MS
-    billing:
-      path: /billservice/**
-      serviceId : BILLING-MS
-    equipments:
-      path: /equipment-service/**
-      serviceId: equipment-ms  
+    # billing:
+    #   path: /billservice/**
+    #   serviceId : BILLING-MS
+    # equipments:
+    #   path: /equipment-service/**
+    #   serviceId: equipment-ms
 eureka:
     url: http://localhost:8761/eureka
