@@ -1,0 +1,9 @@
+zuul:
+  #Sevices will be mapped with /api UserDefinedType
+  prefix: /api
+  routes:
+    customer:
+      path: /customer/**
+      serviceId: CUSTOMER-MS
+eureka:
+    url: http://localhost:8761/eureka
