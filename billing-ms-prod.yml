@@ -1,6 +1,6 @@
 cassandra:
-  contact-points: 192.168.0.15
+  contact-points: 172.31.3.246
   port: 9042
   keyspace-name: billing_domain
 eureka:
-  url: http://192.168.0.15:8761/eureka
+  url: http://172.31.41.207:8761/eureka
