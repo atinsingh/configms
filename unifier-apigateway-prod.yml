@@ -12,4 +12,4 @@ zuul:
       path: /equipment-service/**
       serviceId: equipment-ms
 eureka:
-    url: http://localhost:8761/eureka
+    url: http://192.168.0.15:8761/eureka
