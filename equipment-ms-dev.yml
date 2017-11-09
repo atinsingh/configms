@@ -1,6 +1,6 @@
 cassandra:
   contact-points: 10.44.90.47
   port: 9042
-  keyspace-name: billing_domain
+  keyspace-name: equipment_domain
 eureka:
   url: http://10.44.90.47:8761/eureka
