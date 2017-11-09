@@ -1,0 +1,15 @@
+zuul:
+  #Sevices will be mapped with /api UserDefinedType
+  prefix: /api
+  routes:
+    customer:
+      path: /customer/**
+      serviceId: CUSTOMER-MS
+    billing:
+      path: /billservice/**
+      serviceId : BILLING-MS
+    equipments:
+      path: /equipment-service/**
+      serviceId: equipment-ms
+eureka:
+    url: http://10.44.90.47:8761/eureka
