@@ -3,4 +3,4 @@ cassandra:
   port: 9042
   keyspace-name: billing_domain
 eureka:
-  url: ${EUREKA_SERVER:http://localhost:8761/eureka}
+  url: ${EUREKA_SERVER/eureka:http://localhost:8761/eureka}
