@@ -12,4 +12,4 @@ zuul:
       path: /equipment-service/**
       serviceId: equipment-ms
 eureka:
-    url: http://10.44.90.47:8761/eureka
+    url: {EUREKA_SERVER:http://10.44.90.47:8761/eureka}
